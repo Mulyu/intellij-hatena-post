@@ -25,13 +25,13 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-      <applicationConfigurable instance="PostHatenaConfigurable"/>
+      <applicationConfigurable instance="configurable.PostHatenaConfigurable"/>
     <!-- Add your extensions here -->
   </extensions>
 
   <actions>
     <!-- Add your actions here -->
-      <action id="PostHatena.PostHatena" class="PostHatenaAction" text="Post Hatena" description="Post Hatena blog">
+      <action id="PostHatena.PostHatena" class="action.PostHatenaAction" text="Post Hatena" description="Post Hatena blog">
           <add-to-group group-id="EditorPopupMenu" anchor="first"/>
           <keyboard-shortcut keymap="$default" first-keystroke="meta alt P"/>
       </action>

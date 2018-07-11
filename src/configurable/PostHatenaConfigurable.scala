@@ -1,9 +1,11 @@
-import java.awt.{BorderLayout, GridBagConstraints, GridBagLayout, Insets}
+package configurable
+
+import java.awt.{GridBagConstraints, GridBagLayout, Insets}
 
 import com.intellij.openapi.options.Configurable
 import com.intellij.ui.DocumentAdapter
-import javax.swing.event.DocumentEvent
 import javax.swing._
+import javax.swing.event.DocumentEvent
 
 class PostHatenaConfigurable extends Configurable {
 
